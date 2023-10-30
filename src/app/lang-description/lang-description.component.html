@@ -1,0 +1,11 @@
+<ng-container *ngIf="imgAvailable; else resultNA;">
+    <img class="" [src]=langImageSrc [alt]=langImageAlt width="123" height="140">
+    
+  </ng-container>
+  
+  <ng-template #resultNA></ng-template>
+
+
+
+<h2>{{langTitle}}</h2>
+<p class="text-justify">{{langText}}</p>

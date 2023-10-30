@@ -1,0 +1,10 @@
+<ng-container *ngIf="imgAvailable; else resultNA;">
+    <img class="" [src]=cardImg alt="HTML5" width="123" height="140">
+    
+  </ng-container>
+  
+  <ng-template #resultNA></ng-template>
+
+<h3>{{cardTitle}}</h3>
+<p>{{cardText}}</p>
+

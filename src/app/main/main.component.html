@@ -1,57 +1,111 @@
+<div class="container-fluid" id="content">
 
-<div class="container" id="content">
-
-    <div class="row hidden-xs-up">
-        <div class="col">
-            <h1>Szobekweb.hu</h1>
-        </div>
+  <div class="row hidden-xs-up">
+    <div class="col">
+      <h1>Szobekweb.hu</h1>
     </div>
-  
-    <div class="row hidden-xs-up">
-        <div class="col">
-            <hr>
-        </div>
-    </div>
-  
-    <div class="row text-justify about-row">
-  
-        <div class="col-lg-4">
-            <img class="img-fluid mylogo" src="assets/img/logo.png" alt="Szobek">
-            
-        </div>
-        <div class="col-lg-4">
-          <app-description cardTitle="Rólam" cardText="2011 óta foglalkozok weblap fejlesztéssel, és hybrid mobil applikációkkal, leginkább a front-end oldallal, de munkám során sokszor kellett a back-enden is dolgoznom, így az sem áll távol tőlem. "></app-description>
-          <!--<a routerLink="about" class="btn btn-primary link-url">Tovább</a>-->
-          
-        </div>
-        <div class="col-lg-4">
-          <app-description cardTitle="Korábbi munkáim" cardText="Korábbi projektjeim során sok technológiát kipróbáltam, de azt hiszem több év alatt az ember le tudja tenni a voksát egy nyelv/technológia mellett, még is sokszor kell más területen dolgoznia, de a tanulás ebben a szakmában soha nem érhet véget."></app-description>
-            <!--<a href="/projects" class="btn btn-primary link-url">Tovább</a>-->
-           
-        </div>
-  
-    </div>
-  
-    <div class="row">
-        <div class="col">
-            <hr class="hidden-sm hidden-xs">
-        </div>
-    </div>
-  
-    <div class="row language-list-container">
-        <div class="col-lg-4 text-center">
-          <app-lang-description langTitle="HTML 5" langImageAlt="HTML 5" langText="A HTML5 a HTML (Hypertext Markup Language, a web fő jelölőnyelve) korábbi verzióinak az átdolgozott változata. A kifejlesztésének egyik fő célja, hogy a webes alkalmazásokhoz ne legyen szükség pluginek (pl. Adobe Flash, Microsoft Silverlight, Oracle JavaFX) telepítésére. (via Wikipedia) Az új elemeknek köszönhetően könnyen felépíthető az oldal, hardveres gyorsítás, multimedia fájlok egyszerű beillesztése, és persze sok-sok újdonság." langImageSrc="assets/img/html5_logo.png"></app-lang-description>
-            
-        </div>
-        <div class="col-lg-4 text-center">
-          <app-lang-description langTitle="Laravel" langImageAlt="Laravel" langImageSrc="assets/img/laravel_logo.png" langText="Az egyik legelterjedtebb php framework, mellyel lehetőség van egyszerű útvonal kezelésre, templatelésre, az Elixirrel (új néven Mix) az assetfájlok kezelésére, adatbázis migrációra, és még sok másra. A projektjeinket általában ebben készítjük el, de persze sok más CMS rendszer is van, amelyek adott feladatra készülnek, így érdemes ezeket is ismerni (WordPress, PrestaShop, Joomla, stb)."></app-lang-description>
-            
-        </div>
-        <div class="col-lg-4 text-center">
-          <app-lang-description langTitle="JavaScript" langImageAlt="JavaScript" langImageSrc="assets/img/javascript_logo.png" langText="A JavaScript az egyik legelterjedtebb szkript nyelv a weboldalak front-end oldali kezelésére, a modern websiteok nélkülözhetetlen kelléke, legyen szó egy blogról, vagy egy komolyabb webalkalmazásról. Legismertebb frameworkök: Angular, jQuery, Vue, React. A framework kiválasztása abszolút szubjektív, de én az Angular mellett tettem le a szavazatom, illetve kisebb projektek esetén a natív ES6 is pont elég."></app-lang-description>
-            
-        </div>
-    </div>
-  
-  
   </div>
+
+
+  <div class="row language-list-container">
+    <div class="col-lg-4 text-center">
+      <app-lang-description langTitle="HTML 5" langImageAlt="HTML 5"
+        langText="A HTML5 a HTML (Hypertext Markup Language, a web fő jelölőnyelve) korábbi verzióinak az átdolgozott változata. A kifejlesztésének egyik fő célja, hogy a webes alkalmazásokhoz ne legyen szükség pluginek (pl. Adobe Flash, Microsoft Silverlight, Oracle JavaFX) telepítésére. (via Wikipedia) Az új elemeknek köszönhetően könnyen felépíthető az oldal, hardveres gyorsítás, multimedia fájlok egyszerű beillesztése, és persze sok-sok újdonság."
+        langImageSrc="assets/img/html5_logo.png"></app-lang-description>
+
+    </div>
+    <div class="col-lg-4 text-center">
+      <app-lang-description langTitle="Laravel" langImageAlt="Laravel" langImageSrc="assets/img/laravel_logo.png"
+        langText="Az egyik legelterjedtebb php framework, mellyel lehetőség van egyszerű útvonal kezelésre, templatelésre, az Elixirrel (új néven Mix) az assetfájlok kezelésére, adatbázis migrációra, és még sok másra. A projektjeinket általában ebben készítjük el, de persze sok más CMS rendszer is van, amelyek adott feladatra készülnek, így érdemes ezeket is ismerni (WordPress, PrestaShop, Joomla, stb)."></app-lang-description>
+
+    </div>
+    <div class="col-lg-4 text-center">
+      <app-lang-description langTitle="JavaScript" langImageAlt="JavaScript"
+        langImageSrc="assets/img/javascript_logo.png"
+        langText="A JavaScript az egyik legelterjedtebb szkript nyelv a weboldalak front-end oldali kezelésére, a modern websiteok nélkülözhetetlen kelléke, legyen szó egy blogról, vagy egy komolyabb webalkalmazásról. Legismertebb frameworkök: Angular, Vue, React. A framework kiválasztása abszolút szubjektív, de én az Angular mellett tettem le a szavazatom, illetve kisebb projektek esetén a natív ES6 is pont elég."></app-lang-description>
+
+    </div>
+  </div>
+
+  <div class="row about-row">
+    <div class="col-12">
+      <app-description cardTitle="Rólam"
+        cardText="2011 óta foglalkozok weblap fejlesztéssel, és hybrid mobil applikációkkal, leginkább a front-end oldallal, de munkám során sokszor kellett a back-enden is dolgoznom, így az sem áll távol tőlem. "></app-description>
+    </div>
+    <div class="col-12 text-center">
+      <img class="img-fluid me" src="assets/img/me.jpg" alt="Me">
+    </div>
+
+  </div>
+
+
+
+
+  <div class="row work-list">
+    <div class="col-12">
+      <app-description cardTitle="Korábbi munkáim"
+        cardText="Korábbi projektjeim során sok technológiát kipróbáltam, de azt hiszem több év alatt az ember le tudja tenni a voksát egy nyelv/technológia mellett, még is sokszor kell más területen dolgoznia, de a tanulás ebben a szakmában soha nem érhet véget."></app-description>
+
+    </div>
+
+    <div class="col-12 d-flex work-list-cards">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">BME Környezetgazdaság tanszék</h5>
+          <p class="text-center"><img class="img-fluid " src="assets/img/bme.png" alt="bme favicon"></p>
+          <p class="card-text description">A backendet is én csináltam (Laravel ) és a frontendet a bladek jelenítik meg
+            (SSR). </p>
+          <p class="text-center"> <a href="http://kornygazd.bme.hu/hu" target="_blank"
+              class=" btn btn-primary card-link">weblap</a></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Zöldséges</h5>
+          <p class="text-center"><img class="img-fluid " src="assets/img/zoldseges.png" alt="Zöldséges"></p>
+          <p class="card-text description">A frontendet csináltam ebben a projektben, együtt működve az UI csapattal és
+            backendes csapattal</p>
+          <p class="text-center"> <a href="https://zoldseges.com/" target="_blank"
+              class="btn btn-primary card-link">weblap</a></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Létezz könnyedén</h5>
+          <p class="text-center"><img class="img-fluid " src="assets/img/lk.png" alt="Létezz könnyedén logo"></p>
+          <p class="card-text description">Az egész oldalt én csináltam Angularral a megrendelő ötlete szerint készült a
+            design.</p>
+          <p class="text-center"> <a href="https://www.letezzkonnyeden.hu/" target="_blank"
+              class="btn btn-primary card-link">weblap</a></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Pimpa</h5>
+          <p class="card-text description">A backendet is én csináltam (Laravel ) és a frontendet a bladek jelenítik meg (SSR).</p>
+          <p class="text-center"><a href="http://pimpa.hu" target="_blank" class="btn btn-primary card-link">weblap</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="row program-list">
+    <div class="col-4 offset-4">
+
+      <app-program-list></app-program-list>
+    </div>
+  </div>
+
+</div>
+<div class="container-fluid footer">
+      <app-footer-component></app-footer-component>
+</div>
+
+<div class="btn-up" (click)="goToTop()"></div>

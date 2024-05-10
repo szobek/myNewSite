@@ -8,6 +8,8 @@ import { LangDescriptionComponent } from './lang-description/lang-description.co
 import { AboutComponent } from './about/about.component';
 import { MainComponent } from './main/main.component';
 import { ContactComponent } from './contact/contact.component';
+import { ProgramListComponent } from './program-list/program-list.component';
+import { FooterComponentComponent } from './footer-component/footer-component.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ContactComponent } from './contact/contact.component';
     LangDescriptionComponent,
     AboutComponent,
     MainComponent,
-    ContactComponent
+    ContactComponent,
+    ProgramListComponent,
+    FooterComponentComponent
   ],
   imports: [
     BrowserModule,

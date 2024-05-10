@@ -1,4 +1,4 @@
-<div class="container-fluid" id="content">
+<div class="container-fluid" id="content" >
 
   <div class="row hidden-xs-up">
     <div class="col">
@@ -7,30 +7,10 @@
   </div>
 
 
-  <div class="row language-list-container">
-    <div class="col-lg-4 text-center">
-      <app-lang-description langTitle="HTML 5" langImageAlt="HTML 5"
-        langText="A HTML5 a HTML (Hypertext Markup Language, a web fő jelölőnyelve) korábbi verzióinak az átdolgozott változata. A kifejlesztésének egyik fő célja, hogy a webes alkalmazásokhoz ne legyen szükség pluginek (pl. Adobe Flash, Microsoft Silverlight, Oracle JavaFX) telepítésére. (via Wikipedia) Az új elemeknek köszönhetően könnyen felépíthető az oldal, hardveres gyorsítás, multimedia fájlok egyszerű beillesztése, és persze sok-sok újdonság."
-        langImageSrc="assets/img/html5_logo.png"></app-lang-description>
-
-    </div>
-    <div class="col-lg-4 text-center">
-      <app-lang-description langTitle="Laravel" langImageAlt="Laravel" langImageSrc="assets/img/laravel_logo.png"
-        langText="Az egyik legelterjedtebb php framework, mellyel lehetőség van egyszerű útvonal kezelésre, templatelésre, az Elixirrel (új néven Mix) az assetfájlok kezelésére, adatbázis migrációra, és még sok másra. A projektjeinket általában ebben készítjük el, de persze sok más CMS rendszer is van, amelyek adott feladatra készülnek, így érdemes ezeket is ismerni (WordPress, PrestaShop, Joomla, stb)."></app-lang-description>
-
-    </div>
-    <div class="col-lg-4 text-center">
-      <app-lang-description langTitle="JavaScript" langImageAlt="JavaScript"
-        langImageSrc="assets/img/javascript_logo.png"
-        langText="A JavaScript az egyik legelterjedtebb szkript nyelv a weboldalak front-end oldali kezelésére, a modern websiteok nélkülözhetetlen kelléke, legyen szó egy blogról, vagy egy komolyabb webalkalmazásról. Legismertebb frameworkök: Angular, Vue, React. A framework kiválasztása abszolút szubjektív, de én az Angular mellett tettem le a szavazatom, illetve kisebb projektek esetén a natív ES6 is pont elég."></app-lang-description>
-
-    </div>
-  </div>
-
   <div class="row about-row">
     <div class="col-12">
       <app-description cardTitle="Rólam"
-        cardText="2011 óta foglalkozok weblap fejlesztéssel, és hybrid mobil applikációkkal, leginkább a front-end oldallal, de munkám során sokszor kellett a back-enden is dolgoznom, így az sem áll távol tőlem. "></app-description>
+        cardText="A nevem Kunszt Norbert és 2011 óta foglalkozok weblap fejlesztéssel, és hybrid mobil applikációkkal, leginkább a front-end oldallal, de munkám során sokszor kellett a back-enden is dolgoznom, így az sem áll távol tőlem. "></app-description>
     </div>
     <div class="col-12 text-center">
       <img class="img-fluid me" src="assets/img/me.jpg" alt="Me">
@@ -38,13 +18,22 @@
 
   </div>
 
+  <div class="row skill-list">
+    <div class="col-xs-12 col-md-8 offset-md-2">
+
+      <app-skills></app-skills>
+    </div>
+  </div>
+
+
+
 
 
 
   <div class="row work-list">
     <div class="col-12">
       <app-description cardTitle="Korábbi munkáim"
-        cardText="Korábbi projektjeim során sok technológiát kipróbáltam, de azt hiszem több év alatt az ember le tudja tenni a voksát egy nyelv/technológia mellett, még is sokszor kell más területen dolgoznia, de a tanulás ebben a szakmában soha nem érhet véget."></app-description>
+        cardText="Korábbi projektjeim során sok technológiát kipróbáltam, de azt hiszem több év alatt az ember le tudja tenni a voksát egy nyelv/technológia mellett, mégis sokszor kell más területen dolgoznia, de a tanulás ebben a szakmában soha nem érhet véget."></app-description>
 
     </div>
 
@@ -96,12 +85,45 @@
 
 
 
+  <div class="row language-list-container">
+    <div class="col-12 text-center mb-5">
+      <h3>Használt nyelvek és framewörkök</h3>
+    </div>
+    <div class="col-lg-3 text-center">
+
+      <app-lang-description langTitle="Angular" langImageAlt="Angular"
+        langText="Röviden összefoglalva az Angular egy teljesen nyílt forráskódú, TypeScript alapú keretrendszer, amit a Google fejlesztett ki és jelenleg is a Google Team vezeti. Elsősorban frontend oldali fejlesztéshez, összetett webes alkalmazásokhoz találták ki. 2010-ben jelent meg először, ekkor még Angular JS néven, de ma már, ha azt halljuk, hogy Angular, akkor alapértelmezetten Angular 2+ verziókra kell gondolni."
+        langImageSrc="assets/img/angular-logo.svg"></app-lang-description>
+
+    </div>
+    <div class="col-lg-3 text-center">
+
+      <app-lang-description langTitle="HTML 5" langImageAlt="HTML 5"
+        langText="A HTML5 a HTML (Hypertext Markup Language, a web fő jelölőnyelve) korábbi verzióinak az átdolgozott változata. A kifejlesztésének egyik fő célja, hogy a webes alkalmazásokhoz ne legyen szükség pluginek (pl. Adobe Flash, Microsoft Silverlight, Oracle JavaFX) telepítésére. (via Wikipedia) Az új elemeknek köszönhetően könnyen felépíthető az oldal, hardveres gyorsítás, multimedia fájlok egyszerű beillesztése, és persze sok-sok újdonság."
+        langImageSrc="assets/img/html5_logo.png"></app-lang-description>
+
+    </div>
+    <div class="col-lg-3 text-center">
+      <app-lang-description langTitle="Laravel" langImageAlt="Laravel" langImageSrc="assets/img/laravel_logo.png"
+        langText="Az egyik legelterjedtebb php framework, mellyel lehetőség van egyszerű útvonal kezelésre, templatelésre, az Elixirrel (új néven Mix) az assetfájlok kezelésére, adatbázis migrációra, és még sok másra. A projektjeinket általában ebben készítjük el, de persze sok más CMS rendszer is van, amelyek adott feladatra készülnek, így érdemes ezeket is ismerni (WordPress, PrestaShop, Joomla, stb)."></app-lang-description>
+
+    </div>
+    <div class="col-lg-3 text-center">
+      <app-lang-description langTitle="JavaScript" langImageAlt="JavaScript"
+        langImageSrc="assets/img/javascript_logo.png"
+        langText="A JavaScript az egyik legelterjedtebb szkript nyelv a weboldalak front-end oldali kezelésére, a modern websiteok nélkülözhetetlen kelléke, legyen szó egy blogról, vagy egy komolyabb webalkalmazásról. Legismertebb frameworkök: Angular, Vue, React. A framework kiválasztása abszolút szubjektív, de én az Angular mellett tettem le a szavazatom, illetve kisebb projektek esetén a natív ES6 is pont elég."></app-lang-description>
+
+    </div>
+  </div>
+
   <div class="row program-list">
-    <div class="col-4 offset-4">
+    <div class="col-xs-12 col-md-8 offset-md-2">
 
       <app-program-list></app-program-list>
     </div>
   </div>
+
+  
 
 </div>
 <div class="container-fluid footer">

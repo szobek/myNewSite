@@ -26,27 +26,27 @@ works = [
         logos: ["assets/laravel_logo.png","assets/mysql_logo.png"]
     },
     {
-        title: "Létezz könnyedén",
-        description: "Az egész oldalt én csináltam Angularral a megrendelő ötlete szerint készült a design.",
-        image: "./assets/létezz_könnyedén_logo.png",
+        title: "Zöldséges",
+        description: "A frontendet csináltam ebben a projektben, együtt működve az UI csapattal és backendes csapattal",
+        image: "./assets/zoldseges_logo.png",
         logos: ["assets/angular_logo.png"]
     },
     {
-        title: "Létezz könnyedén",
-        description: "Az egész oldalt én csináltam Angularral a megrendelő ötlete szerint készült a design.",
-        image: "./assets/létezz_könnyedén_logo.png",
-        logos: ["assets/angular_logo.png"]
+        title: "Futárom",
+        description: "A frontendet csináltam ebben a projektben, együtt működve az UI csapattal és backendes csapattal",
+        image: "./assets/futarom_logo.png",
+        logos: ["assets/JS_logo.png"]
     },
     {
-        title: "Létezz könnyedén",
-        description: "Az egész oldalt én csináltam Angularral a megrendelő ötlete szerint készült a design.",
-        image: "./assets/létezz_könnyedén_logo.png",
-        logos: ["assets/angular_logo.png"]
+        title: "Pimpa",
+        description: "A backendet is én csináltam ( Laravel ) és a frontendet a bladek jelenítik meg (SSR).",
+        image: "./assets/pimpa_logo.png",
+        logos: ["assets/laravel_logo.png","assets/mysql_logo.png"]
     },
     {
-        title: "Létezz könnyedén",
-        description: "Az egész oldalt én csináltam Angularral a megrendelő ötlete szerint készült a design.",
-        image: "./assets/létezz_könnyedén_logo.png",
+        title: "Ammarna",
+        description: "A frontendet ( Angular ) csináltam ebben a projektben, együtt működve az UI csapattal és backendes csapattal",
+        image: "./assets/ammarna_logo.png",
         logos: ["assets/angular_logo.png"]
     },
 

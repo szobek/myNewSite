@@ -1,0 +1,25 @@
+.head-content > .row> .col-md-4 > img{
+    height: 200px ;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+#skills{
+    display: flex;
+    flex-direction: column;
+}
+.skill-box{
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+}
+.skill-box.empty{
+    border: 1px solid #A2DBD6;
+}
+.skill-box.full{
+    background-color: #A2DBD6;
+}
+.bg-colored{
+    background-color: #79C2D0;
+}

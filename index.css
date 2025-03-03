@@ -74,6 +74,14 @@
 .footer-content .social-media-icon-wrapper img {
   cursor: pointer;
 }
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-content a:hover {
+  color: #79C2D0;
+}
 
 .title {
   margin-bottom: 50px;

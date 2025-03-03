@@ -87,6 +87,15 @@ $work-card-bg-color: #BBE4E9;
             cursor: pointer;
         }
     }
+    a{
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover{
+            color: #79C2D0;
+        }
+    }
+    
 }
 
 .title{

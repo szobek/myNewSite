@@ -52,8 +52,8 @@
 }
 #works .work .dev-logo-wrapper {
   position: absolute;
-  bottom: 30px;
-  left: 30px;
+  bottom: 10px;
+  left: 10px;
 }
 #works .work .dev-logo-wrapper .dev_logo {
   width: 30px;

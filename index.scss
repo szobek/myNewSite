@@ -76,3 +76,14 @@
         width: auto;
     }
 }
+
+.footer-content{
+    background-color: #000;
+    color: #fff;
+    padding-top: 20px;
+    .social-media-icon-wrapper{
+        img{
+            cursor: pointer;
+        }
+    }
+}

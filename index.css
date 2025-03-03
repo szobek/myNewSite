@@ -66,4 +66,13 @@
   width: auto;
 }
 
+.footer-content {
+  background-color: #000;
+  color: #fff;
+  padding-top: 20px;
+}
+.footer-content .social-media-icon-wrapper img {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=index.css.map */

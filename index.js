@@ -81,7 +81,7 @@ function writeWorkList() {
     for (let work of works) {
         text += `<div class="work">`;
         text += `<h3>${work.title}</h3>`;
-        text += `<p>${work.description}</p>`;
+        text += `<p class="work-description">${work.description}</p>`;
         text += `<img src="${work.image}" class="site_logo" alt="${work.title}">`;
         text += `<div class="dev-logo-wrapper">`;
         for (let logo of work.logos) {

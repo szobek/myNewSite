@@ -1,11 +1,26 @@
 $work-card-bg-color: #BBE4E9;
+$work-text-color: #323232;
+$container-bg-color: #79C2D0;
+$skill-bg-color: #A2DBD6;
+$skill-border-color: #A2DBD6;
 .head-content {
+    .me-image {
+        @media screen and (max-width: 768px) {
+            text-align: center;
+        }
+    }
+
     img {
         height: 200px;
         width: auto;
         border-radius: 50%;
         margin-left: 200px;
         margin-top: 100px;
+
+        @media screen and (max-width: 1235px) {
+            margin-left: 0;
+            margin-top: 0;
+        }
     }
 }
 
@@ -20,25 +35,22 @@ $work-card-bg-color: #BBE4E9;
     margin: 3px;
 
     &.empty {
-        border: 1px solid #A2DBD6;
+        border: 1px solid $skill-border-color;
     }
 
     &.full {
-        background-color: #A2DBD6;
+        background-color: $skill-bg-color;
     }
 }
 
-.bg-colored {
-    background-color: #79C2D0;
-}
 
 #works {
     margin-top: 55px;
     flex-wrap: wrap;
     gap: 50px 30px;
-
+    
     .work {
-        color: #323232;
+        color: $work-text-color;
         padding: 50px 20px;
         position: relative;
         width: 250px;
@@ -46,22 +58,31 @@ $work-card-bg-color: #BBE4E9;
         margin: 10px;
         border: 1px solid $work-card-bg-color;
         background-color: $work-card-bg-color;
-
+        
+        .work-description {
+            color: $work-text-color;
+            
+            @media screen and (max-width: 768px) {
+                font-size: 12px;
+                
+            }
+        }
+        
         h3 {
             font-size: 14px;
         }
-
+        
         .site_logo {
             position: absolute;
             top: -50px;
             left: 30px;
         }
-
+        
         .dev-logo-wrapper {
             position: absolute;
             bottom: 10px;
             left: 10px;
-
+            
             .dev_logo {
                 width: 30px;
                 height: auto;
@@ -71,34 +92,51 @@ $work-card-bg-color: #BBE4E9;
     }
 }
 
-.used-softwares{
-    img{
+.used-softwares {
+    img {
         height: 100px;
         width: auto;
     }
 }
 
-.footer-content{
+.footer-content {
     background-color: #000;
     color: #fff;
     padding-top: 20px;
-    .social-media-icon-wrapper{
-        img{
+    
+    .social-media-icon-wrapper {
+        img {
             cursor: pointer;
         }
     }
-    a{
+    
+    a {
         color: #fff;
         text-decoration: none;
         cursor: pointer;
-        &:hover{
+        
+        &:hover {
             color: #79C2D0;
         }
     }
     
 }
 
-.title{
+.title {
     margin-bottom: 50px;
     color: #585858;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.used-framework-wrapper {
+    
+    img {
+        margin: 15px;
+    }
+}
+.bg-colored {
+    background-color: $container-bg-color;
 }

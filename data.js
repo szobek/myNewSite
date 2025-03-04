@@ -50,5 +50,13 @@ export const data = {
             image: "./assets/ammarna_logo.png",
             logos: ["assets/angular_logo.png"]
         }
-    ]
+    ],
+    telephone:"+36205340145",
+    email:"kunszt.norbert@gmail.com",
+    links:{
+        linkedin:"https://www.linkedin.com/in/norbert-kunszt",
+        github:"https://github.com/szobek",
+        facebook:"https://www.facebook.com/norbert.kunszt",
+
+    }
 }

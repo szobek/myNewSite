@@ -3,6 +3,11 @@ import {data } from './data.js';
 document.addEventListener('DOMContentLoaded', function () {
     writeSkillList();
     writeWorkList();
+    writeTel();
+    writeEmail();
+    document.getElementById('footer_facebook_icon').addEventListener('click',()=>goTo('facebook'));
+    document.getElementById('footer_github_icon').addEventListener('click',()=>goTo('github'));
+    document.getElementById('footer_linkedin_icon').addEventListener('click',()=>goTo('linkedin'));
 });
 
 
@@ -40,4 +45,30 @@ function writeWorkList() {
         text += `</div>`;
     }
     workdiv.innerHTML = text;
+}
+
+function writeTel(){
+    const telDiv = document.getElementById('mytel');
+    telDiv.innerText = data.telephone;
+    telDiv.href = `tel:${data.telephone}`;
+}
+
+function writeEmail(){
+    const emailDiv = document.getElementById('myemail');
+    emailDiv.innerText = data.email;
+    emailDiv.href = `mailto:${data.email}`;
+}
+
+function goTo(page){
+    switch(page){
+        case 'linkedin':
+            window.open(data.links.linkedin);
+            break;
+        case 'github':
+            window.open(data.links.github);
+            break;
+        case 'facebook':
+            window.open(data.links.facebook);
+            break;
+    }
 }

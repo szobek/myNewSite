@@ -4,11 +4,11 @@ skills = [
     { name: 'Angular', empty: 0, full: 5 },
     { name: 'TypeScript', empty: 0, full: 5 },
     { name: 'SCSS', empty: 0, full: 5 },
-    { name: 'SEO', empty: 3, full: 2 },
-    { name: 'PHP', empty: 3, full: 2 },
-    { name: 'MySQL', empty: 3, full: 2 },
-    { name: 'WordPress', empty: 3, full: 2 },
-    { name: 'Java', empty: 3, full: 2 },
+    { name: 'SEO', empty: 2, full: 3 },
+    { name: 'PHP', empty: 2, full: 3 },
+    { name: 'MySQL', empty: 2, full: 3 },
+    { name: 'WordPress', empty: 2, full: 3 },
+    { name: 'Java', empty: 2, full: 3 },
     { name: 'Docker', empty: 3, full: 2 },
 ];
 works = [

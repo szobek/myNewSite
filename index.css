@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
   .head-content .me-image {
     text-align: center;
+    margin-bottom: 3rem;
   }
 }
 .head-content img {
